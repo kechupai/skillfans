@@ -1,4 +1,4 @@
 export default {
-  port: process.env.HTTP_PORT || 9000,
-  baseUrl: process.env.BASE_URL || 'https://fanso-api.xscripts.info'// 'http://localhost:9000' //
+  port: process.env.HTTP_PORT || 8080,
+  baseUrl: process.env.BASE_URL || 'http://api.ec2-18-222-228-243.us-east-2.compute.amazonaws.com'// 'http://localhost:9000' //
 };
